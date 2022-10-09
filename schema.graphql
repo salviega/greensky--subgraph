@@ -1,0 +1,10 @@
+type DataNvdiRegistered @entity {
+  id: ID!
+  requestId: BigInt! 
+  mean: String!
+  std: String! 
+  max: String! 
+  min: String! 
+  uuid: String!
+  parkName: String!
+}
